@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include migoo_new *.css
+recursive-include migoo_new *.csv
+recursive-include migoo_new *.html
+recursive-include migoo_new *.ico
+recursive-include migoo_new *.js
+recursive-include migoo_new *.json
+recursive-include migoo_new *.md
+recursive-include migoo_new *.png
+recursive-include migoo_new *.py
+recursive-include migoo_new *.svg
+recursive-include migoo_new *.txt
+recursive-exclude migoo_new *.pyc
